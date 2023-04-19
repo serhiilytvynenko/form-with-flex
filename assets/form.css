@@ -1,0 +1,65 @@
+#body-conteiner {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  width: 600px;
+  height: 800px;
+  background-color: rgb(91, 91, 219);
+  color: white;
+}
+
+#input-column {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type=text],
+input[type=password],
+input[type=email] {
+  width: 260px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.input-container {
+  display: flex;
+  margin: 10px;
+}
+
+#flexbox-box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+  margin: 10px;
+}
+
+div+p {
+  font-size: 12px;
+}
+
+input[type=submit] {
+  width: 500px;
+  height: 60px;
+  background-color: rgb(86, 153, 192);
+  font-size: 20px;
+  color: white;
+}
+
+.buttom-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

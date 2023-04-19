@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/form.css">
+  <title>Create AccOunt</title>
+</head>
+
+<body>
+  <div id="body-conteiner">
+    <h1>CREATE AN ACCOUNT</h1>
+    <p>We always keep your name and email address private</p>
+    <form>
+      <div id="input-column">
+        <div class="container">
+          <div class="input-container">
+            <label for="first-name"></label>
+            <input type="text" id="first-name" placeholder="First name">
+          </div>
+          <div class="input-container">
+            <label for="display-name"></label>
+            <input type="text" id="display-name" placeholder="Display name">
+          </div>
+          <div class="input-container">
+            <label for="password"></label>
+            <input type="password" id="password" name="password" placeholder="Password">
+          </div>
+        </div>
+        <div class="container">
+          <div class="input-container">
+            <label for="last-name"></label>
+            <input type="text" id="last-name" placeholder="Last name">
+          </div>
+          <div class="input-container">
+            <label for="email"></label>
+            <input type="email" id="email" name="email" placeholder="Email Address">
+          </div>
+          <div class="input-container">
+            <label for="password-confirmation"></label>
+            <input type="password" id="password-confirmation" name="password-confirmation"
+              placeholder="Password Confirmation">
+          </div>
+        </div>
+      </div>
+      <div id="flexbox-box">
+        <div class="box">
+          <div>
+            <input type="radio" id="first-choice" name="choice" value="first-choice">
+            <label for="first-choice">Join As a Buyer</label>
+          </div>
+          <p>I am looking for a Name, Logo or Tagline for my business, brand or product.</p>
+        </div>
+        <div class="box">
+          <div>
+            <input type="radio" id="second-choice" name="choice" value="second-choice">
+            <label for="second-choice">Join As a Creative or Marketplace Seller</label>
+          </div>
+          <p>I plan to submit name ideas, Logo design or sell names in Domain Marketplace.</p>
+        </div>
+      </div>
+      <div>
+        <input type="checkbox" id="checkbox">
+        <lable for="checkbox">Allow Squadhelp to send marketing/promotional offers from time to time</lable>
+      </div>
+      <div class="buttom-container">
+        <input type="submit" value="Create Account">
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
