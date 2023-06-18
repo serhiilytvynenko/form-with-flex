@@ -58,8 +58,29 @@ input[type=submit] {
   color: white;
 }
 
+input[type=reset] {
+  width: 500px;
+  height: 60px;
+  background-color: rgb(86, 153, 192);
+  font-size: 20px;
+  color: white;
+}
+
 .buttom-container {
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
+
+
+.error-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  color: red;
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 5px;
+}
+
